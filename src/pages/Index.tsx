@@ -19,10 +19,13 @@ const Index = () => {
 
             {/* Profile Image */}
             <div className="flex-shrink-0 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-card overflow-hidden flex items-center justify-center">
-                <div className="w-full h-full bg-gradient-to-br from-card to-muted flex items-center justify-center text-card-foreground font-semibold text-lg">
-                  Profile Photo
-                </div>
+              <div className="w-64 h-80 md:w-80 md:h-96 rounded-xl bg-card overflow-hidden flex items-center justify-center">
+                <img
+                  src="/images/profile.png"
+                  alt="Profile"
+                  className="w-full h-full object-cover"
+                  style={{ objectPosition: '50% 10%' }}
+                />
               </div>
             </div>
           </div>
