@@ -8,6 +8,7 @@ const navItems = [
   { label: "Journal", to: "/journal" },
   { label: "Certificates", to: "/certificates" },
   { label: "Photos", to: "/photos" },
+  { label: "Contact", to: "/contact" },
 ];
 
 const Navbar = () => {

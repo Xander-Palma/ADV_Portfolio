@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Journal from "./pages/Journal";
 import Certificates from "./pages/Certificates";
 import Photos from "./pages/Photos";
+import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/journal" element={<Journal />} />
           <Route path="/certificates" element={<Certificates />} />
           <Route path="/photos" element={<Photos />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
